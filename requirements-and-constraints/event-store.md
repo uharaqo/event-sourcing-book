@@ -76,7 +76,7 @@ For performance and efficiency, a state snapshot can be persisted separately. In
 
 ## Summary
 
-Thanks to the simple constraint, immutability of events, we can ignore complex concurrency control and state management. Since we only have a single data schema, replicating the database is quite easy. This is&#x20;
+Event Sourcing need complex concurrency control and state managementWith the simple constraint, immutability of events, . Since we only have a single data schema, replicating the database is quite easy. This is&#x20;
 
 * The event store can be easily cloned to a local machine or container. We can easily debug and test features with production data. A new feature can be tested locally with the data created before the feature exists.
 * Another event group can be easily created based on the persisted events.

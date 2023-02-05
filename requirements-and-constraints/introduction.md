@@ -1,7 +1,3 @@
----
-description: Is the
----
-
 # Introduction
 
 ## Motivation

@@ -16,7 +16,7 @@ What if the response to a query is stale?
 
 ### Concurrent Requests
 
-
+How this event group is modeled depends on use cases. Transaction boundaries based on write patterns and query patterns for read patterns would be the key consideration points. For example, we can have `User` and `Email` states separately and share a single `User` event group. By doing this, we can recover each state separately.
 
 ### Writing command handlers without a transaction is too complex for a task
 
