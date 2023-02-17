@@ -1,31 +1,20 @@
 # Table of contents
 
 * [NOT COMPLETED YET](README.md)
-* [Page 2](page-2.md)
-* [Page 1](page-1.md)
 
-## Requirements and Constraints
+## Overview
 
-* [Introduction](requirements-and-constraints/introduction.md)
-* [What is Event Sourcing?](requirements-and-constraints/what-is-event-sourcing.md)
-* [Minimum Design Requirements](requirements-and-constraints/minimum-design-requirements.md)
-* [State and Event Handler](requirements-and-constraints/state-and-event-handler.md)
-* [Event Store](requirements-and-constraints/event-store.md)
-* [Projections](requirements-and-constraints/projections.md)
-* [Command Handlers and Side Effects](requirements-and-constraints/command-handlers-and-side-effects.md)
-* [Command Router](requirements-and-constraints/command-router.md)
+* [Motivation](overview/motivation.md)
+* [Proposed Development Process](overview/proposed-development-process.md)
+* [What is Event Sourcing?](overview/what-is-event-sourcing.md)
+* [Rethink Event Sourcing](overview/rethink-event-sourcing.md)
+* [Design Requirements](overview/design-requirements/README.md)
+  * [Event Store](overview/design-requirements/event-store.md)
+  * [Command Handlers and Side Effects](overview/design-requirements/command-handlers-and-side-effects.md)
+  * [Projections](overview/design-requirements/projections.md)
+  * [Command Router](overview/design-requirements/command-router.md)
 
-## Solutions
+## (Draft)
 
-* [Summary](solutions/summary.md)
-* [FAQ](solutions/faq.md)
-* [Consistent Event Sourcing](solutions/consistent-event-sourcing.md)
-* [Distributed SQL](solutions/distributed-sql.md)
-* [Externalized State](solutions/externalized-state.md)
-* [Process Manager](solutions/process-manager.md)
-* [Saga](solutions/saga.md)
-* [Versioning and Schema Evolution](solutions/versioning-and-schema-evolution.md)
-
-## Group 1
-
-* [Page 3](group-1/page-3.md)
+* [Consistent Event Sourcing](draft/consistent-event-sourcing.md)
+* [Versioning and Schema Evolution](draft/versioning-and-schema-evolution.md)
