@@ -1,3 +1,3 @@
 # NOT COMPLETED YET
 
-Still verifying and reorganizing my thoughts on Event Sourcing. This document is just my memorandam at this moment.
+This document is still a draft. I will finalize this once the implementation of the library is completed.
